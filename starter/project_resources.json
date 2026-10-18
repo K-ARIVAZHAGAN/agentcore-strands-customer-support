@@ -1,0 +1,16 @@
+{
+  "region": "us-east-1",
+  "account": "062966552587",
+  "order-tracker": "arn:aws:lambda:us-east-1:062966552587:function:order-tracker",
+  "refund-processor": "arn:aws:lambda:us-east-1:062966552587:function:refund-processor",
+  "rest_api_id": "5jm9frsl22",
+  "gateway_id": "customersupportgateway-sm3p03jusa",
+  "gateway_url": "https://customersupportgateway-sm3p03jusa.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp",
+  "order_target": "FFHOBDPPY5",
+  "refund_target": "ZPBDOJ6BLQ",
+  "bucket": "csai-demo-catalog-062966552587",
+  "kb_id": "WTL5CPQERB",
+  "data_source_id": "MYFGEYPRBE",
+  "ingestion_job_id": "ODTKPRCLJ6",
+  "memory_id": "CustomerSupportMemory-q2p3Vs8i9G"
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "basePath": {
+            "type": "string"
+          },
+          "customer_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "customer_id"
+        ]
+      }
+    },
+    "name": "order-tracker___get_customer",
+    "description": "get_customer"
+  },
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "basePath": {
+            "type": "string"
+          },
+          "customer_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "customer_id"
+        ]
+      }
+    },
+    "name": "order-tracker___get_customer_orders",
+    "description": "get_customer_orders"
+  },
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "basePath": {
+            "type": "string"
+          },
+          "order_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_id"
+        ]
+      }
+    },
+    "name": "order-tracker___get_order",
+    "description": "get_order"
+  },
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "refund_id": {
+            "description": "Refund ID to check",
+            "type": "string"
+          }
+        },
+        "required": [
+          "refund_id"
+        ]
+      }
+    },
+    "name": "refund-processor___check_refund_status",
+    "description": "Check the status of an existing refund."
+  },
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "order_id": {
+            "description": "Order ID needing a label",
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_id"
+        ]
+      }
+    },
+    "name": "refund-processor___get_return_label",
+    "description": "Generate a prepaid return shipping label for an order."
+  },
+  {
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "reason": {
+            "description": "Reason for refund",
+            "type": "string"
+          },
+          "amount": {
+            "description": "Refund amount in USD",
+            "type": "number"
+          },
+          "order_id": {
+            "description": "Order ID to refund",
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_id",
+          "reason"
+        ]
+      }
+    },
+    "name": "refund-processor___initiate_refund",
+    "description": "Initiate a refund for a customer order."
+  }
+]

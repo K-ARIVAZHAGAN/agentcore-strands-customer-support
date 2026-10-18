@@ -1,0 +1,27 @@
+{
+  "payload": {
+    "prompt": "Can you track order ORD-001? Please call the order tool to verify the current status.",
+    "customer_id": "CUST-123",
+    "session_id": "gateway-order-final"
+  },
+  "response": {
+    "response": "The order ORD-001 for Wireless Headphones Pro is confirmed as **SHIPPED** via UPS with tracking number **TRK987654321**. The estimated delivery date remains **October 20, 2026**.",
+    "customer_id": "CUST-123",
+    "session_id": "gateway-order-final",
+    "tool_results": [
+      {
+        "name": "order-tracker___get_order",
+        "result": {
+          "status": "success",
+          "toolUseId": "tooluse_9ETsutDYI9ebnzGgiU51ct",
+          "content": [
+            {
+              "text": "{\"order_id\":\"ORD-001\",\"customer_id\":\"CUST-123\",\"status\":\"SHIPPED\",\"items\":[{\"name\":\"Wireless Headphones Pro\",\"qty\":1,\"price\":89.99}],\"total\":89.99,\"tracking_number\":\"TRK987654321\",\"carrier\":\"UPS\",\"estimated_delivery\":\"2026-10-20\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  }
+}

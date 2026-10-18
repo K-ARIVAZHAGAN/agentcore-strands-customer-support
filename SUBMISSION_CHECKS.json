@@ -1,0 +1,12 @@
+{
+  "files": 52,
+  "main_sha256": "da84d84d10978f41eca8e8cdb47ea8daf7f8780661126dd2fe3f8e6838631055",
+  "checks": [
+    "Python syntax",
+    "no TODO/pass placeholders in main.py",
+    "credential-pattern scan",
+    "six scenario evidence files",
+    "200-400 word reflection",
+    "main source hash matches deployment proof"
+  ]
+}

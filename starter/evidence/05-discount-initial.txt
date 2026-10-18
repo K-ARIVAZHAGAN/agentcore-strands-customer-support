@@ -1,0 +1,37 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"I am a Gold member with 4250 points. Calculate my discount on a $150 standard order.\", \"customer_id\": \"CUST-123\", \"session_id\": \"t5\"}", "--session-id", "a3ad421b-53d6-4c55-b68b-8fef877f6051"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: a3ad421b-53d6-4c55-b68b-8fef877f6051                               │
+│ Request ID: fe3560ae-bcf0-4a3e-8a19-d825d88c46f9                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+### Your Loyalty Discount Breakdown
+
+- **Order total:** $150.00  
+- **Points redeemed:** 4,000  
+- **Points discount:** $40.00  
+- **Gold tier discount (10%):** $15.00  
+- **Final total:** $99.00  
+- **Total savings:** $51.00  
+- **Points earned from purchase:** 99  
+- **Remaining points after redemption:** 250  
+
+You saved **$51** on this order and earned **99** additional points, leaving 
+you with **250** points remaining.
+
+STDERR:

@@ -1,0 +1,38 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"Go to https://www.udacity.com and tell me the page title.\", \"customer_id\": \"CUST-123\", \"session_id\": \"t6\"}", "--session-id", "8a274194-16ff-46ee-97da-dfa12e462c3b"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: 8a274194-16ff-46ee-97da-dfa12e462c3b                               │
+│ Request ID: 0e6342e1-1e36-4c0d-896d-450f4d4c0813                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+I apologize, but I'm unable to access external websites like udacity.com due to
+system limitations. The browser automation tool isn't available in this 
+environment, which prevents me from fetching page titles or content from 
+external sites.
+
+However, I can help you with:
+- Checking order details and statuses (I can see you have orders ORD-001 for 
+Wireless Headphones Pro and ORD-002 for Kindle Paperwhite)
+- Processing returns and refunds 
+- Looking up product information from our knowledge base
+- Calculating loyalty discounts
+
+Would you like me to help with any of these instead? For example, I can check 
+the status of your ORD-002 Kindle Paperwhite return request from October 18.
+
+STDERR:

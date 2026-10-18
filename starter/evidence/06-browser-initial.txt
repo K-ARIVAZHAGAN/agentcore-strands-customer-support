@@ -1,0 +1,36 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"Go to https://www.udacity.com and tell me the page title.\", \"customer_id\": \"CUST-123\", \"session_id\": \"t6\"}", "--session-id", "1428227d-949b-400a-b8bb-bb8a5053c6ff"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: 1428227d-949b-400a-b8bb-bb8a5053c6ff                               │
+│ Request ID: c10882bf-d941-4ec3-a113-aec7b056ff97                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+I apologize, but I'm unable to access external websites like udacity.com due to
+system limitations. The browser automation tool isn't available in this 
+environment, which prevents me from fetching page titles or content from 
+external sites.
+
+However, I can help you with:
+- Checking order details and statuses
+- Processing returns and refunds for your orders
+- Looking up product information from our knowledge base
+- Calculating loyalty discounts
+
+Would you like me to help with any of these instead?
+
+STDERR:

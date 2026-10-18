@@ -1,0 +1,27 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"I want to return my Kindle Paperwhite (ORD-002). Please initiate a refund.\", \"customer_id\": \"CUST-123\", \"session_id\": \"t2\"}", "--session-id", "da32683c-5cc4-4269-9f5e-057e91858ca0"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: da32683c-5cc4-4269-9f5e-057e91858ca0                               │
+│ Request ID: 0a3c59dd-7ff0-4857-918c-449762a76d15                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+Your refund for the Kindle Paperwhite (ORD-002) has been approved. A credit of 
+$139.99 will appear on your account in 3-5 business days. Your refund ID is 
+**REF-71YMB1HT**.
+
+STDERR:

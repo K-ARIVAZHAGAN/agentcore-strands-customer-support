@@ -1,0 +1,24 @@
+{
+  "agentRuntimeArn": "arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent-d32rOzHB4e",
+  "agentRuntimeId": "csai_support_agent-d32rOzHB4e",
+  "agentRuntimeVersion": "3",
+  "createdAt": "2026-10-18 03:32:05.188085+00:00",
+  "lastUpdatedAt": "2026-10-18 03:53:13.596131+00:00",
+  "roleArn": "arn:aws:iam::062966552587:role/AmazonBedrockAgentCoreSDKRuntime-us-east-1-a043e779d9",
+  "status": "READY",
+  "agentRuntimeArtifact": {
+    "codeConfiguration": {
+      "code": {
+        "s3": {
+          "bucket": "bedrock-agentcore-codebuild-sources-062966552587-us-east-1",
+          "prefix": "csai_support_agent/deployment.zip"
+        }
+      },
+      "runtime": "PYTHON_3_13",
+      "entryPoint": [
+        "main.py"
+      ]
+    }
+  },
+  "source_main_sha256": "da84d84d10978f41eca8e8cdb47ea8daf7f8780661126dd2fe3f8e6838631055"
+}

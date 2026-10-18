@@ -1,0 +1,27 @@
+{
+  "payload": {
+    "prompt": "Please initiate a demo refund for my Kindle Paperwhite order ORD-002 using the refund tool. Reason: customer-requested return.",
+    "customer_id": "CUST-123",
+    "session_id": "gateway-refund-final"
+  },
+  "response": {
+    "response": "Your refund for the Kindle Paperwhite (order ORD-002) has been approved. A credit of $139.99 will appear in your account in 3-5 business days (refund ID: REF-SHMIXMSW).",
+    "customer_id": "CUST-123",
+    "session_id": "gateway-refund-final",
+    "tool_results": [
+      {
+        "name": "refund-processor___initiate_refund",
+        "result": {
+          "status": "success",
+          "toolUseId": "tooluse_bV802a4n1tUjrwRHZWWSZo",
+          "content": [
+            {
+              "text": "{\"statusCode\":200,\"body\":\"{\\\"refund_id\\\": \\\"REF-SHMIXMSW\\\", \\\"order_id\\\": \\\"ORD-002\\\", \\\"status\\\": \\\"APPROVED\\\", \\\"amount\\\": 139.99, \\\"message\\\": \\\"Refund approved. Credit appears in 3-5 business days.\\\", \\\"created_at\\\": \\\"2026-10-18T03:54:13.189204+00:00\\\"}\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  }
+}

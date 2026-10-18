@@ -1,0 +1,29 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"I am a Gold member with 4250 points. Calculate my discount on a $150 standard order.\", \"customer_id\": \"CUST-123\", \"session_id\": \"t5\"}", "--session-id", "788213dc-4f41-4ae1-b93f-30f3405b89e7"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: 788213dc-4f41-4ae1-b93f-30f3405b89e7                               │
+│ Request ID: 00ddab0a-bfed-40a5-b6d0-ec2dabd1cf28                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+Loyalty calculation: {"execution": "agentcore_code_interpreter", "order_total":
+"150.00", "points_redeemed": 4000, "points_discount": "40", "tier": "Gold", 
+"tier_discount_pct": 10, "tier_discount": "11.00", "final_total": "99.00", 
+"total_savings": "51.00", "points_earned": 99, "points_after_redemption": 250, 
+"remaining_points": 349}
+
+STDERR:

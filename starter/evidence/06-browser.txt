@@ -1,0 +1,26 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"Go to https://www.udacity.com and tell me the page title. Use browser init_session with session_name udacity-session, then navigate, then evaluate document.title and location.href. If navigate times out waiting for network idle, still evaluate the title from the loaded page in that same session. Report only the actual evaluated title and URL.\", \"customer_id\": \"CUST-456\", \"session_id\": \"t6\"}", "--session-id", "4764203a-49e6-4efd-bafc-711caee001fb"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: 4764203a-49e6-4efd-bafc-711caee001fb                               │
+│ Request ID: 77fdcbe9-2d88-492e-92da-2cbff76e7e42                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+Learn the Latest Tech Skills; Advance Your Career | 
+Udacity|https://www.udacity.com/
+
+STDERR:

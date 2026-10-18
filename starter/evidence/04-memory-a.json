@@ -1,0 +1,12 @@
+{
+  "command": [
+    "agentcore",
+    "invoke",
+    "{\"prompt\": \"Hi, I am Jane. I prefer concise responses.\", \"customer_id\": \"CUST-123\", \"session_id\": \"s-A\"}",
+    "--session-id",
+    "f74a3812-4be2-49e9-8086-952992a4bfd3"
+  ],
+  "exit_code": 0,
+  "stdout": "\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 csai_support_agent \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502 Session: f74a3812-4be2-49e9-8086-952992a4bfd3                               \u2502\n\u2502 Request ID: 066b84ac-5e8e-462d-95df-ded2ed142e63                            \u2502\n\u2502 ARN:                                                                        \u2502\n\u2502 arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent \u2502\n\u2502 -d32rOzHB4e                                                                 \u2502\n\u2502 Logs: aws logs tail                                                         \u2502\n\u2502 /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       \u2502\n\u2502 --log-stream-name-prefix \"2026/10/18/[runtime-logs\" --follow                \u2502\n\u2502       aws logs tail                                                         \u2502\n\u2502 /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       \u2502\n\u2502 --log-stream-name-prefix \"2026/10/18/[runtime-logs\" --since 1h              \u2502\n\u2502 GenAI Dashboard:                                                            \u2502\n\u2502 https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse \u2502\n\u2502 rvability/agent-core                                                        \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n\nResponse:\nHello Jane! I'll keep my responses concise. How can I assist you today?\n",
+  "stderr": ""
+}

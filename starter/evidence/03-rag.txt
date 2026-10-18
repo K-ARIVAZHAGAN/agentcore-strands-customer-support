@@ -1,0 +1,33 @@
+COMMAND: ["agentcore", "invoke", "{\"prompt\": \"What are the benefits of the Platinum loyalty tier?\", \"customer_id\": \"CUST-123\", \"session_id\": \"t3\"}", "--session-id", "ed9ecf3a-478d-4d26-919b-93367ccfd2eb"]
+EXIT CODE: 0
+
+STDOUT:
+┌──────────────────────────── csai_support_agent ─────────────────────────────┐
+│ Session: ed9ecf3a-478d-4d26-919b-93367ccfd2eb                               │
+│ Request ID: a350fafe-bb7f-45f5-ab7a-6f517d481a56                            │
+│ ARN:                                                                        │
+│ arn:aws:bedrock-agentcore:us-east-1:062966552587:runtime/csai_support_agent │
+│ -d32rOzHB4e                                                                 │
+│ Logs: aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --follow                │
+│       aws logs tail                                                         │
+│ /aws/bedrock-agentcore/runtimes/csai_support_agent-d32rOzHB4e-DEFAULT       │
+│ --log-stream-name-prefix "2026/10/18/[runtime-logs" --since 1h              │
+│ GenAI Dashboard:                                                            │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-obse │
+│ rvability/agent-core                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+The Platinum loyalty tier offers these key benefits:
+
+- **Free same-day shipping** on eligible orders
+- **15% discount** on purchases
+- **Priority customer support** access
+
+Platinum status is achieved when you accumulate 5,000 or more loyalty points. 
+The tier also includes all benefits from lower tiers (Silver and Gold), plus 
+these enhanced perks specifically for Platinum members.
+
+STDERR:
