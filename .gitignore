@@ -8,3 +8,5 @@ __pycache__/
 *.key
 .bedrock_agentcore/
 *.zip
+.DS_Store
+Thumbs.db
